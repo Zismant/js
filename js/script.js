@@ -18,18 +18,18 @@ const personalMovieDB = {
 // personalMovieDB.movies[a] = b;
 // personalMovieDB.movies[c] = d;
 
-// for (let i = 0; i < 2; i++) {
-//     const a = prompt('Який із останніх побачених фільмів?', '');
-//     const b = prompt('На скільки його оціните?', '');
+for (let i = 0; i < 2; i++) {
+    const a = prompt('Який із останніх побачених фільмів?', '');
+    const b = prompt('На скільки його оціните?', '');
 
-//     if (a != null && b != null && a != '' && b != '' && a.length < 50) {
-//         personalMovieDB.movies[a] = b;
-//         console.log('done');
-//     } else {
-//         console.log('error');
-//         i--;
-//     }
-// }
+    if (a != null && b != null && a != '' && b != '' && a.length < 50) {
+        personalMovieDB.movies[a] = b;
+        console.log('done');
+    } else {
+        console.log('error');
+        i--;
+    }
+}
 
 // let i = 0;
 // while (i < 2) {
@@ -46,20 +46,20 @@ const personalMovieDB = {
 // }
 
 
-let i = 0;
-do { const a = prompt('Який із останніх побачених фільмів?', '');
-const b = prompt('На скільки його оціните?', '');
-i++;
-if (a != null && b != null && a != '' && b != '' && a.length < 50) {
-    personalMovieDB.movies[a] = b;
-    console.log('done');
-} else {
-    console.log('error');
-    i--;
-}
+// let i = 0;
+// do { const a = prompt('Який із останніх побачених фільмів?', '');
+// const b = prompt('На скільки його оціните?', '');
+// i++;
+// if (a != null && b != null && a != '' && b != '' && a.length < 50) {
+//     personalMovieDB.movies[a] = b;
+//     console.log('done');
+// } else {
+//     console.log('error');
+//     i--;
+// }
 
-}
-while (i < 2)
+// }
+// while (i < 2)
 
 
 
@@ -82,3 +82,5 @@ if (personalMovieDB.count < 10) {
 
 
 console.log(personalMovieDB);
+console.log('h');
+console.log('h');
